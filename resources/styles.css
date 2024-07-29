@@ -1,8 +1,8 @@
 .application-fill           { fill: device-white; }
 
-#tumbler-hour               { x: 24;   y: 120; width: 120; height: 100%; }
-#tumbler-mins               { x: 158;  y: 120; width: 120; height: 100%; }
+#tumbler-hour               { x: 50;   y: 120; width: 30; height: 100%; }
+#tumbler-mins               { x: 100;  y: 120; width: 50; height: 100%; }
 #tumbler-hour #value text   { x: 100%; text-anchor: end;}
-.tumbler-colon              { x: 141;  y: -16; width: 12; }
+.tumbler-colon              { x: 76;  y: -140; width: 19; font-size: 80; }
 
-.unit-box                   { x: 100%-60; width: 60;}
+/* .unit-box                   { x: 100%-10; width: 10;} */

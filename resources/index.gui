@@ -50,6 +50,10 @@
     </use>
   </use>
 
+  <use id="settings-colon-container" href="#static-text" class="tumbler-colon h1">
+    <set href="#text" attributeName="text-buffer" to="|"/>
+  </use>
+
   <use id="tumbler-mins" href="#tumblerview">
     <use id="min-item0" href="#tumbler-item">
       <set href="value/text" attributeName="text-buffer" to="0" />
@@ -101,12 +105,8 @@
     </use>
   </use>
 
-  <use id="settings-colon-container" href="#static-text" class="tumbler-colon h1">
-    <set href="#text" attributeName="text-buffer" to="|"/>
-  </use>
-
-  <use id="units" href="#tumbler-toggle-label" class="unit-box">
+  <!-- <use id="units" href="#tumbler-toggle-label" class="unit-box">
     <set href="tumbler-toggle-top" attributeName="text-buffer" to=""/>
     <set href="tumbler-toggle-bot" attributeName="text-buffer" to=""/>
-  </use>
+  </use> -->
 </svg>
