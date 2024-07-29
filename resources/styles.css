@@ -1,0 +1,8 @@
+.application-fill           { fill: device-orange; }
+
+#tumbler-hour               { x: 24;   y: 120; width: 120; height: 100%; }
+#tumbler-mins               { x: 158;  y: 120; width: 120; height: 100%; }
+#tumbler-hour #value text   { x: 100%; text-anchor: end;}
+.tumbler-colon              { x: 141;  y: -16; width: 12; }
+
+.unit-box                   { x: 100%-60; width: 60;}
